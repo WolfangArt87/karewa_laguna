@@ -37,7 +37,7 @@ const config = {
         defaults: defaults,
         app: app,
         mongo: {
-            url: process.env.MONGODB_URI ||'mongodb://143.198.72.36:27017/monitor_karewa_web_dev',
+            url: process.env.MONGODB_URI ||'mongodb://143.198.70.204:27017/monitor_karewa_web_dev',
             connectionOptions: {
                 usePushEach: true,
                 autoIndex: true, // Auto-build indexes
@@ -84,7 +84,7 @@ const config = {
         defaults: defaults,
         app: app,
         mongo: {
-            url: 'mongodb://143.198.72.36:27017/monitor_karewa_web_dev',
+            url: 'mongodb://143.198.70.204:27017/monitor_karewa_web_dev',
             connectionOptions: {
                 usePushEach: true,
                 autoIndex: true, // Auto-build indexes
